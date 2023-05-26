@@ -1,0 +1,230 @@
+/* Estilos previos */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos previos */
+
+
+.logo-container {
+  text-align: center;
+  background-color: rgb(7, 178, 7);
+}
+
+header {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; /* Posiciona los elementos a la derecha */
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Estilos adicionales para los botones de navegación */
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+
+h1, p {
+  text-align: center;
+  text-align: center;
+  }
+
+
+
+section {
+  padding: 40px;
+}
+
+.plantas-seccion {
+  display: flex;
+  justify-content: space-around;
+}
+
+.planta {
+  text-align: center;
+}
+
+.planta img {
+  width: 200px;
+  height: 200px;
+}
+
+.planta h3 {
+  margin-top: 20px;
+}
+
+.planta-boton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.content-container {
+  background-color: #333;
+  padding: 20px;
+}
+
+
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.carousel-slide {
+  display: none;
+  width: 700px;
+}
+
+/* Estilos adicionales para cada sección */
+
+.sobre-nosotros {
+  color: white;
+  background-color: rgb(7, 178, 7);
+  padding: 20px;
+  text-align: center;
+  margin-right: 15px;
+}
+
+.mision-vision {
+  background-color: rgb(7, 178, 7);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-right: 15px;
+}
+
+.mision,
+.vision {
+  margin-bottom: 20px;
+}
+
+.mision h3,
+.vision h3 {
+  color: white;
+}
+
+/* Estilos del footer */
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.faq-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.faq-question {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.faq-answer {
+  margin-bottom: 20px;
+}
+
+.main-container {
+  display: flex;
+  }
+
+  .carousel-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .main-container {
+
+    background-color: rgb(7, 178, 7);
+    margin-right: 15px;
+
+    }
+
+    .flash-ad {
+      width: 300px;
+      height: 250px;
+      background-color: #f00;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+      margin-left: 15px;
+    }
+    
+    .logo img {
+      width: 50px;
+      height: 50px;
+    }
+    
+    .product img {
+      width: 100px;
+      height: 100px;
+    }
+    
+    .buy-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #ff5252;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+    
+    .buy-button:hover {
+      background-color: #e60000;
+
+      
+    }
+    
+    .carousel-slide {
+      margin-right: 20px;
+    }
+    
+    .flash-ad {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50vh;
+      width: 150vh;
+      margin-left: 194px;
+    }
+
+
+   
+    
+    
+

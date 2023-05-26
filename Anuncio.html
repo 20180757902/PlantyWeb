@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <a href="Anuncio nike.jpg"></a>
+    <title>Anuncio Animado</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Estilos del anuncio */
+        .ad-container {
+            width: 500px;
+            height: 250px;
+            margin: 20px auto;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .ad-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 250%;
+            height: 250%;
+            background-image: url(imagen1.jpg);
+            background-size: cover;
+            transition: opacity 0.5s ease;
+        }
+        
+        .ad-container:hover .ad-image {
+            opacity: 0;
+        }
+        
+        .ad-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        
+        .ad-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .ad-description {
+            color: #666;
+            margin-top: 10px;
+        }
+        
+        .ad-button {
+            margin-top: 15px;
+        }
+        
+        .ad-button a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff5722;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 3px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .ad-button a:hover {
+            background-color: #e64a19;
+        }
+    </style>
+</head>
+<body>
+    <div class="ad-container">
+        <div class=""></div>
+        <div class="ad-content">
+            <h2 class="Anuncio Nike">¡No te pierdas nuestra oferta especial!</h2>
+            <p class="Esto es una descripción sobre esta oferta">Obtén un 20% de descuento en todos nuestros productos. ¡Visítanos ahora!</p>
+            <div class="ad-button">
+                <a href="https://www.nike.com/t/air-jordan-1-low-mens-shoes-0LXhbn/553558-065">Ver oferta</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
